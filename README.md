@@ -1,6 +1,6 @@
 # Super Shop Management System
 ## Overview
-The Supershop Management System is an online program designed to automate and optimize supermarket operations.The system is designed to cater to four types of users: Customer, Admin, Cashier, and Seller, ensuring a seamless and efficient shopping and management experience.The system is developed using HTML,CSS,JavaScript.
+The Supershop Management System is an online program designed to automate and optimize supermarket operations.The system is designed to cater to four types of users: Customer, Admin, Cashier, and Seller, ensuring a seamless and efficient shopping and management experience.The system is developed using HTML,CSS,PHP,MySQL,JavaScript.
 
 **1.Customer:**
 Customers can browse products, check prices, and make purchases with ease. The system ensures a smooth shopping experience with a user-friendly interface and real-time updates on product availability.
