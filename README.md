@@ -1,1 +1,1 @@
-# WebTech
+# Super Shop MAnagement System
