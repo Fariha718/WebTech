@@ -12,7 +12,7 @@ $conobj=$mydb->openCon();
 $result=$mydb->login("admin",$uname , $pass, $conobj);
 if($result->num_rows > 0){
 $_SESSION["uname"]=$uname;
-header('Location: ../view/profile.php');
+header('Location: ../view/showalluser.php');
 }
 else{
     echo "Wrong credential";
