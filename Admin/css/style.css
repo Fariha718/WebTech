@@ -1,0 +1,43 @@
+body {
+    background-color: lightblue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+  }
+  input[type=button], input[type=submit], input[type=reset] {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 35px;
+    text-decoration: none;
+    margin: 10px auto; 
+    cursor: pointer;
+    display: block; 
+    width: 22%; 
+    text-align: center; 
+    border-radius: 5px;
+    
+  }
+  .center {
+    margin: auto;
+    width: 20%;
+    border: 3px solid green;
+    padding: 10px;
+  }
+  .head{
+    text-align: center;
+  }
+  a {
+    background-color: blue;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: block; /* Makes it a block element */
+    width: fit-content; /* Adjusts width to fit text */
+    margin: 5px auto 0; /* Centers the button below the text */
+    border-radius: 5px; 
+  }
+
+a:hover {
+    background-color: darkblue;
+}
