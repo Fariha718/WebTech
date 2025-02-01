@@ -82,7 +82,7 @@ function searchUser() {
     var uname = document.getElementById("uname").value;
 
     if (uname.trim() === "") {
-        document.getElementById("print").innerHTML = "aa"; // Clear results if empty
+        document.getElementById("print").innerHTML = ""; // Clear results if empty
         return;
     }
 
