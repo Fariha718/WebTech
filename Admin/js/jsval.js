@@ -58,7 +58,7 @@ function validPass(){
  function checkCpass(){
     var cpass = document.getElementById("cpass").value;
     var pass = document.getElementById("pass").value;
-     //const emailRegex = /^[a-zA-Z0-9._%+-]+@xyz+.com$/;
+     
  
     if(cpass==pass){
      document.getElementById("cpassError").innerHTML="";

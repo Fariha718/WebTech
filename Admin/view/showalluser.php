@@ -9,6 +9,7 @@ include '../control/showallcontrol.php';
 </head>
 <body>
 <a href="../view/searchuser.php" >Search User here</a>
+<a href="../control/sessiondestroy.php">Logout</a>
 <table class="head">
     
         <tr>

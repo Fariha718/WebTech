@@ -10,7 +10,7 @@ require '../control/regcontrol.php';
     <h1 class="head">Admin Registration Page</h1>
     <form action="" method="post" enctype="multipart/form-data" onsubmit="return validation()">
         <fieldset class="center">
-        <legend> General Information </legend>
+        <legend class="leg"> General Information </legend>
         <table>
         <tr><td><label for="fname"> First name:* </label></td>
         <td><input type="text" id="fname" name="fname"></td>
@@ -39,7 +39,7 @@ require '../control/regcontrol.php';
         </table>
         </fieldset>
         <fieldset class="center">
-        <legend> Account Information </legend>
+        <legend id="legend"> Account Information </legend>
         <table>
         <tr><td><label for="uname"> User name: </label></td>
         <td><input type="text" id="uname" name="uname"></tr></td>

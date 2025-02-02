@@ -20,7 +20,7 @@ body {
   .center {
     margin: auto;
     width: 20%;
-    border: 3px solid green;
+    border: 3px solid black;
     padding: 10px;
   }
   .head{
@@ -35,7 +35,7 @@ body {
     display: block; 
     width: fit-content;
     margin: 5px auto 0; 
-    border-radius: 5px; 
+    border-radius: 40px; 
   }
 
 a:hover {
@@ -52,6 +52,12 @@ table {
     width: 20%;
     border: 3px solid green;
     padding: 10px;
+    text-align: center;
+  }
+  .leg{
+    text-align: center;
+  }
+  #legend{
     text-align: center;
   }
   
