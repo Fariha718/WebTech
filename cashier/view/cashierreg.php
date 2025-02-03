@@ -1,5 +1,5 @@
 <?php
-require '../control/regcontrol.php'; // Include regcontrol.php for form processing
+require '../control/regcontrol.php'; 
 ?>
 <!DOCTYPE html>
 
@@ -11,23 +11,25 @@ require '../control/regcontrol.php'; // Include regcontrol.php for form processi
 <body>
     <h1 class="head">Cashier Registration Page</h1>
 
-    <form action="" method="POST" enctype="multipart/form-data" onsubmit="return validation()">  <!-- Added enctype for file upload -->
+    <form action="" method="POST" enctype="multipart/form-data" onsubmit="return validation()">  
         <fieldset class="center">
             <legend class="leg">Cashier Information</legend>
             <table>
                 <tr>
                     <td><label for="fname">Full name: </label></td>
-                    <td><input type="text" id="fname" name="fname" required><br></td>
+                    <td><input type="text" id="fname" name="fname" ><br></td>
+                    <td><p id="fnameError"></p></td>
                 </tr>
 
                 <tr>
                     <td><label for="uname">User name: </label></td>
-                    <td><input type="text" id="uname" name="uname" required><br></td>
+                    <td><input type="text" id="uname" name="uname" ><br></td>
+                    <td><p id="unameError"></p></td>
                 </tr>
 
                 <tr>
                     <td><label for="email">Email: </label></td>
-                    <td><input type="email" id="email" name="email" required><br></td>
+                    <td><input type="email" id="email" name="email" ><br></td>
                  </tr>
 
                 <tr>
@@ -37,18 +39,19 @@ require '../control/regcontrol.php'; // Include regcontrol.php for form processi
 
                 <tr>
                     <td><label for="password">Password: </label></td>
-                    <td><input type="password" id="pwd" name="pwd" required><br></td>
+                    <td><input type="password" id="pwd" name="pwd" ><br></td>
+                    <td><p id="pwdError"></p></td>
                 </tr>
 
                 <tr>
                     <td><label for="confirm_password">Confirm Password: </label></td>
-                    <td><input type="password" id="cpwd" name="cpwd" required><br></td>
+                    <td><input type="password" id="cpwd" name="cpwd" ><br></td>
                 </tr>
 
                 <tr>
                     <td><label for="role">Role/Position: </label></td>
                     <td>
-                        <select name="role" id="role" required>
+                        <select name="role" id="role" >
                             <option value="" disabled selected>Select role/position</option>
                             <option value="salesman">Salesman</option>
                             <option value="cashier">Cashier</option>
@@ -63,11 +66,11 @@ require '../control/regcontrol.php'; // Include regcontrol.php for form processi
                 <tr>
                     <td><label>Branch Location: </label></td>
                     <td>
-                        <input type="radio" name="bl" value="dhaka" required><label for="dhaka">Dhaka</label><br>
-                        <input type="radio" name="bl" value="rajshahi" required><label for="rajshahi">Rajshahi</label><br>
-                        <input type="radio" name="bl" value="kushtia" required><label for="kushtia">Kushtia</label><br>
-                        <input type="radio" name="bl" value="sylhet" required><label for="sylhet">Sylhet</label><br>
-                        <input type="radio" name="bl" value="barishal" required><label for="barishal">Barishal</label><br>
+                        <input type="radio" name="bl" value="dhaka" ><label for="dhaka">Dhaka</label><br>
+                        <input type="radio" name="bl" value="rajshahi" ><label for="rajshahi">Rajshahi</label><br>
+                        <input type="radio" name="bl" value="kushtia" ><label for="kushtia">Kushtia</label><br>
+                        <input type="radio" name="bl" value="sylhet" ><label for="sylhet">Sylhet</label><br>
+                        <input type="radio" name="bl" value="barishal" ><label for="barishal">Barishal</label><br>
                     </td>
                 </tr>
 
@@ -79,7 +82,7 @@ require '../control/regcontrol.php'; // Include regcontrol.php for form processi
                 <tr>
                     <td><label for="sts">Shift Timing Selector: </label></td>
                     <td>
-                        <select name="sts" id="sts" required>
+                        <select name="sts" id="sts" >
                             <option value="" disabled selected>Select Shift Timing</option>
                             <option value="morning_shift">Morning Shift: 8am - 3pm</option>
                             <option value="afternoon_shift">Afternoon Shift: 3pm - 8pm</option>
